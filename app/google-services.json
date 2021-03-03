@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1057449591336",
+    "project_id": "puppy-adaption",
+    "storage_bucket": "puppy-adaption.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057449591336:android:556fcdc7810eab232a6b1d",
+        "android_client_info": {
+          "package_name": "com.example.puppyadaption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057449591336-q61b0ehdn2naifora4pbddkpughh33sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx7O4EEGZ0GmOYonsDpy1JxkfJRlt2RB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057449591336-q61b0ehdn2naifora4pbddkpughh33sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
