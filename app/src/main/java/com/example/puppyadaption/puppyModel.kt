@@ -11,8 +11,9 @@ data class puppyModel(
     val gender: String,
     val other_description: String,
     val location: String,
-    val image_url: String
+    val image_url: String,
+    val mail: String
 ) {
     constructor() : this("", "", "", "",
-        "", "", "", "")
+        "", "", "", "","")
 }

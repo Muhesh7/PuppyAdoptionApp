@@ -37,7 +37,7 @@ fun PuppyDetail(
                     .weight(1f)
             ) {
                 doggy.image_url.let { url ->
-                    val image = glider(url, R.drawable.ic_launcher_foreground).value
+                    val image = glider(url, R.drawable.background).value
                     image?.let {
                         Image(
                             image.asImageBitmap(),
@@ -82,7 +82,6 @@ fun PuppyDetail(
                             Icon(
                                 Icons.Default.MailOutline,
                                 "Search",
-                                tint = Color.Black
                             )
                         }
                         IconButton(
@@ -92,7 +91,6 @@ fun PuppyDetail(
                             Icon(
                                 Icons.Default.Phone,
                                 "Search",
-                                tint = Color.Black
                             )
                         }
 
@@ -122,7 +120,25 @@ fun PuppyDetail(
                     )
                     Spacer(modifier = Modifier.padding(2.dp))
                     Text(
-                        text = "Description: ${doggy.other_description}",
+                        text = "Gender: ${doggy.gender}",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(5.dp)
+                            .wrapContentHeight(),
+                        style = TextStyle(color = Color.Black, fontSize = 17.sp)
+                    )
+                    Spacer(modifier = Modifier.padding(2.dp))
+                    Text(
+                        text = "Age: ${doggy.age}",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(5.dp)
+                            .wrapContentHeight(),
+                        style = TextStyle(color = Color.Black, fontSize = 17.sp)
+                    )
+                    Spacer(modifier = Modifier.padding(2.dp))
+                    Text(
+                        text = "Other Description: ${doggy.other_description}",
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(5.dp)
